@@ -1,0 +1,173 @@
+.bg-custom-blue {
+    background-color: #1de3b0; /* Blue */
+}
+
+.bg-custom-green {
+    background-color: #9ef01a; /* lime green */
+}
+
+.bg-custom-pink {
+    background-color: #ff9b85; /* pink/coral */
+}
+
+.bg-custom-black {
+    background-color: #151515; /* grey/black */
+}
+
+.bg-black {
+    background-color: #000000; /*black*/
+}
+
+.projects-title {
+    font-size: 75px;
+    text-shadow: 
+        0 0 5px #ec75ff,
+        0 0 10px #ec75ff,
+        0 0 15px #ec75ff,
+        0 0 20px #ec75ff,
+        0 0 30px #ec75ff;
+}
+
+.landing-title {
+    font-family: 'Sour Gummy', sans-serif; /* Change to your desired font */
+    font-size: 8vw; /* Adjust size as needed */
+    color: #151515; /* Set the text color to your green (#9ef01a) */
+    text-align: center; /* Center the text */
+    text-shadow: 
+        0 0 5px #9ef01a, /* Soft green glow */
+        0 0 10px #9ef01a, /* Stronger green glow */
+        0 0 15px #9ef01a, /* More intense green glow */
+        0 0 20px #00e600, /* Bright green outer glow */
+        0 0 30px #00e600; /* Even brighter green glow */
+    transition: text-shadow 0.3s ease; /* Smooth transition for glowing effect */
+    margin: 0;
+    padding: 0;
+}
+
+.landing-title:hover {
+    text-shadow: 
+        0 0 10px #9ef01a, /* Soft green glow */
+        0 0 20px #9ef01a, /* Stronger green glow */
+        0 0 30px #9ef01a, /* More intense green glow */
+        0 0 40px #00e600, /* Strong outer glow */
+        0 0 50px #00e600; /* Even brighter outer glow */
+}
+
+.Image-of-me {
+    display: block; /* Makes the image behave like a block element */
+    margin: 0 auto; /* Centers the image horizontally */
+    width: 100%; /* Scale the image to the container width */
+    max-width: 500px; /* Set a max-width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.glow-link {
+    color: #000000; /* White text */
+    text-decoration: none; /* Remove underline */
+    transition: text-shadow 0.3s ease;
+}
+
+.glow-link:hover {
+    color: #ffffff; /* Keep text color white on hover */
+    text-decoration: none; /* Ensure no underline on hover */
+}
+
+.about-link {
+    text-shadow: 
+        0 0 5px #ec75ff,
+        0 0 10px #ec75ff,
+        0 0 15px #ec75ff,
+        0 0 20px #ec75ff,
+        0 0 30px #ec75ff;
+}
+
+.about-link:hover {
+    text-shadow: 
+        0 0 10px #ec75ff,
+        0 0 20px #ec75ff,
+        0 0 30px #ec75ff,
+        0 0 40px #ec75ff,
+        0 0 50px #ec75ff;
+}
+
+.projects-link {
+    text-shadow: 
+        0 0 5px #9ef01a,
+        0 0 10px #9ef01a,
+        0 0 15px #9ef01a,
+        0 0 20px #9ef01a,
+        0 0 30px #9ef01a;
+}
+
+.projects-link:hover {
+    text-shadow: 
+        0 0 10px #9ef01a,
+        0 0 20px #9ef01a,
+        0 0 30px #9ef01a,
+        0 0 40px #9ef01a,
+        0 0 50px #9ef01a;
+}
+
+.contact-link {
+    text-shadow: 
+        0 0 5px #1de3b0,
+        0 0 10px #1de3b0,
+        0 0 15px #1de3b0,
+        0 0 20px #1de3b0,
+        0 0 30px #1de3b0;
+}
+
+.contact-link:hover {
+    text-shadow: 
+        0 0 10px #1de3b0,
+        0 0 20px #1de3b0,
+        0 0 30px #1de3b0,
+        0 0 40px #1de3b0,
+        0 0 50px #1de3b0;
+}
+
+.heading-font {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: large;
+  }
+
+.par-font> {
+    font-family: "Cabin", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+      font-size: small;
+  }
+
+  .about-info-card {
+    background-color: #1de3b0; /* Background color of the card */
+    border-radius: 30px; /* Rounded corners */
+    padding: 20px; /* Space inside the card */
+    margin-left: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for a lifted effect */
+    margin-top: 5px; /* Adjust margin to give space from top */
+    position: relative; /* To position the card over the background */
+    z-index: 2; /* Makes sure the card stays on top of the background */
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-4 {
+    padding: 0; /* Remove padding to make images fit exactly */
+}
+
+img {
+    width: 100%;  /* Make the image fill the column's width */
+    height: auto; /* Maintain the image's aspect ratio */
+    object-fit: cover; /* Ensures the image covers the area of the container */
+}
+
+
+
